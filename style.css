@@ -6,6 +6,17 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Amble-Regular', sans-serif;
+}
+
+/************************************************
+    FONT
+ ************************************************/
+
+@font-face 
+{
+    font-family: 'Amble-Regular';
+    src: url('font/Amble-Regular.ttf') format('otf'),
 }
 
 
