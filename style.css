@@ -183,9 +183,22 @@ section.jumbotron
     border-radius: 20px;
 }
 
+.item .item-icon 
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .item h3
 {
     color: #0084fd;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.item p 
+{
+    line-height: 1.5rem;
 }
 
 .item-icon
@@ -217,29 +230,63 @@ section.jumbotron
     height: 300px;
 }
 
-.text-item-1
+.item-1
 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
+    display: flex; /* use flexbox to align the two sub-containers */
+    align-items: center; /* vertically center the two sub-containers */
+    text-align: left;
 }
 
-.text-item-1 h3, .ltext-item-1t p, .text-item-1 button 
+.text-item-1
+{
+    width: 50%; /* set width of the left container */
+    padding: 20px; /* add some padding for spacing */
+}
+
+.text-item-1 p 
+{
+    width: 300px;
+    line-height: 1.5rem;
+}
+
+.text-item-1 h3, .text-item-1 p, .text-item-1 button 
 {
     margin-left: 20px;
 }
 
 .image-item-1 
 {
-    flex-shrink: 0; /* Prevents image from shrinking */
+    position: relative; /* position the right container */
+    top: 22px; /* align the container to the bottom */
+    left: 40px; /* align the container to the right */
+    width: 50%; /* set width of the right container */
 }
 
-.image-item-1 img 
+.jumbo-button
 {
-    width: 50%;
-    height: auto;
+    background-color:#0084fd;
+    font-size: 15px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: 0px solid #0084fd;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    right: 5px;
 }
+
+.app-store
+{
+    margin-left: 5px;
+}
+    
+.image-item-1 img
+{
+    width: 70%;
+    height: 100%;
+}
+
 
 
 /************************************************
