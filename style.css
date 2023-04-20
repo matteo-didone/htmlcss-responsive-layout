@@ -84,6 +84,9 @@ a
     color: white;
 }
 
+/************************************************
+    HEADER
+ ************************************************/
 
 header
 {
@@ -161,6 +164,14 @@ nav ul li
     right: 100px;
 }
 
+/************************************************
+    MAIN SECTION JUMBOTRON
+ ************************************************/
+
+
+/************************************************
+    MEDIA QUERY FOR RESPONSIVE DESIGN: MOBILE
+ ************************************************/
 @media screen and (max-width: 480px)
 {
     header .right-header
@@ -183,6 +194,9 @@ nav ul li
 
 }
 
+/************************************************
+    MEDIA QUERY FOR RESPONSIVE DESIGN: TABLET
+ ************************************************/
 @media screen and (max-width: 768px)
 {
     header .right-header
