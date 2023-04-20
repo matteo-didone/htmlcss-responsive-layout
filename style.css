@@ -287,6 +287,105 @@ section.jumbotron
     height: 100%;
 }
 
+/************************************************
+    MAIN SECTION SECTION 1
+ ************************************************/
+
+#section-1
+{
+    background-color: rgba(151,146,228,255);
+}
+
+#section-1 .container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+}
+
+.container .left-column-section-1, .right-column-section-1
+{
+    flex-basis: 50%;
+    max-width: 400px;
+    max-height: 100%;
+}
+
+.left-column-section-1 .right-column-section-1
+{
+    background-color: rgba(151,146,228,255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left-column-section-1 img
+{
+    width: 350px;
+    height: 307px;
+    position: relative;
+}
+
+.left-column-section-1 h3
+{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.left-column-section-1 p
+{
+    line-height: 1.5rem;
+}
+
+.left-column-section-1 img, .right-column-section-1 img
+{
+    max-width: 100%;
+} 
+
+.right-column-section-1 img
+{
+    width: 230px;
+    height: 240px;
+    position: relative;
+    top: 35px;
+    left: 90px;
+}
+
+.right-column-section-1
+{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.right-column-section-1 h3
+{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+
+.right-column-section-1 p
+{
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+.download-button
+{
+    background-color: rgba(151,146,228,255);
+}
 
 
 /************************************************
@@ -310,6 +409,36 @@ section.jumbotron
         display: block;
         position: relative;
         right: 27px;
+    }
+
+    .row 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .item
+    {
+        margin-bottom: 25px;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+
+    .item-1 h3
+    {
+        position: relative;
+        bottom: 10px;
+        height: 50px;
+        width: 250px;
+    }
+
+    .image-item-1 
+    {
+        width: 100%;
     }
 
 }
