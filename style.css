@@ -6,7 +6,9 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Tosia', 'FontAwesome', sans-serif;
 }
+
 
 ul 
 {
@@ -28,7 +30,11 @@ a
 /************************************************
     FONT
  ************************************************/
-
+@font-face 
+{
+    font-family: 'Tosia';
+    src: url('font/ROHH\ \ TosiaRegular.otf');
+}
 
 /************************************************
     UTILITIES
@@ -180,6 +186,11 @@ section.jumbotron
 .item h3
 {
     color: #0084fd;
+}
+
+.item-icon
+{
+    font-size: 60px;
 }
 
 .row
