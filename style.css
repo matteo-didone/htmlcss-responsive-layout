@@ -347,15 +347,6 @@ section.jumbotron
     max-width: 100%;
 } 
 
-.right-column-section-1 img
-{
-    width: 230px;
-    height: 240px;
-    position: relative;
-    top: 35px;
-    left: 90px;
-}
-
 .right-column-section-1
 {
     background-color: white;
@@ -365,6 +356,18 @@ section.jumbotron
     flex-direction: column;
     align-items: flex-start;
     text-align: center;
+    margin-left: 40px;
+    max-height: 500px;
+    margin-top: 100px;
+}
+
+.right-column-section-1 img
+{
+    width: 230px;
+    height: 240px;
+    position: relative;
+    top: 35px;
+    left: 90px;
 }
 
 .right-column-section-1 h3
@@ -385,6 +388,14 @@ section.jumbotron
 .download-button
 {
     background-color: rgba(151,146,228,255);
+    width: 50px;
+    height: 50px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    font-size: large;
+    position: relative;
+    top: 20px;
+    left: 170px;
 }
 
 
