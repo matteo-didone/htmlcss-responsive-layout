@@ -74,6 +74,11 @@ a
     height: 100%;
 }
 
+.hide
+{
+    display: none;
+}
+
 .font-white
 {
     color: white;
@@ -154,5 +159,49 @@ nav ul li
     border: 0px solid white;
     position: relative;
     right: 100px;
+}
+
+@media screen and (max-width: 480px)
+{
+    header .right-header
+    {
+        display: none;
+    }
+
+    .logo
+    {
+        position: relative;
+        left: 25px;
+    }
+
+    .fa-bars
+    {
+        display: block;
+        position: relative;
+        right: 27px;
+    }
+
+}
+
+@media screen and (max-width: 768px)
+{
+    header .right-header
+    {
+        display: none;
+    }
+
+    .logo
+    {
+        position: relative;
+        left: 25px;
+    }
+
+    .fa-bars
+    {
+        display: block;
+        position: relative;
+        right: 27px;
+    }
+
 }
 
