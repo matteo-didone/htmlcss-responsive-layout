@@ -557,7 +557,36 @@ section.jumbotron
 /************************************************
     FOOTER
  ************************************************/
+footer
+{
+    background-color: rgba(51,51,51,255);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
 
+footer a 
+{
+    color:  rgba(151,146,228,255);
+    text-decoration: underline;
+}
+
+footer .top-footer-paragraph
+{
+    width: 430px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+footer .bottom-footer-paragraph
+{
+    margin-top: 55px;
+    width: 390px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /************************************************
     MEDIA QUERY FOR RESPONSIVE DESIGN: MOBILE
