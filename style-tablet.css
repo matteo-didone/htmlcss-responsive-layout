@@ -149,9 +149,10 @@ a
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* 2 columns */
         grid-template-rows: repeat(3, 1fr); /* 3 rows */
-        grid-gap: 10px; /* gap between grid items */
+        grid-gap: 20px; /* gap between grid items */
         width: 100%;
         margin-bottom: 60px;
+        padding-bottom: 60px;
     }
     
     .grid-item 
@@ -167,7 +168,7 @@ a
         text-align: center;
         margin: 0 auto;
         color: white;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bolder;
     }
 
@@ -181,6 +182,7 @@ a
         width: 355px;
         height: 420px;
         border-radius: 30px;
+        margin-top: 20px;
     }
 
     #section-3 .grid-item h1 
@@ -220,6 +222,11 @@ a
         border-radius: 30px;
         border: 0px solid transparent;
         margin-left: 5px;
+    }
+
+    #section-3 .grid-item-6 p 
+    {
+        width: 102%;
     }
 
     /************************************************
