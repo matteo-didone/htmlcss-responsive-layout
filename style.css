@@ -401,6 +401,11 @@ section.jumbotron
 /************************************************
     MAIN SECTION SECTION 2
  ************************************************/
+#section-2
+{
+    margin-bottom: 100px;
+}
+
 #section-2 .container .text 
 {
     margin-top: 40px;
@@ -426,6 +431,42 @@ section.jumbotron
 {
     width: 80%;
     margin: 0 auto;
+}
+
+.testimonial-row
+{
+    background-color: rgba(151,146,228,255);
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.testimonial-row .testimonial-picture
+{
+    margin-right: 20px;
+}
+
+.testimonial-row .testimonial-picture img
+{
+    width: 200px;
+    height: 200px;  
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-row .testimonial-text
+{
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.testimonial-name
+{
+    padding-top: 30px;
 }
 
 /************************************************
