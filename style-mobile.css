@@ -90,9 +90,9 @@ a
     color: white;
 }
 /************************************************
-    MEDIA QUERY TABLET
+    MEDIA QUERY MOBILE
  ************************************************/
-@media screen and (max-width: 768px)
+@media screen and (max-width: 480px)
 {
     /************************************************
         BODY
@@ -160,6 +160,10 @@ a
     {
         background-color: rgba(181,221,255,255);
         border-radius: 20px;
+        width: 310px;
+        margin-bottom: 20px;
+        padding: 20px;
+        height: 518px;
     }
 
     .row .row-1 .item-2 
@@ -193,13 +197,9 @@ a
     .row
     {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-between;
-    }
-
-    .row-2
-    {
-        margin-top: 15px;
     }
 
     .two-thirds
@@ -219,7 +219,7 @@ a
         display: flex; /* use flexbox to align the two sub-containers */
         align-items: center; /* vertically center the two sub-containers */
         text-align: left;
-        height: 567px;
+        height: 605px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -288,8 +288,8 @@ a
         width: 260px !important;
         height: 300px !important;
         position: relative;
-        top: 48px;
-        left: 20px;
+        top: 25px;
+        left: 5px;
     }
 
     .jumbo-button
