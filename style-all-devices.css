@@ -42,7 +42,6 @@ a
     src: url('font/ROHH\ \ TosiaBold.otf');
 }
 
-
 /************************************************
     UTILITIES
  ************************************************/
@@ -89,2105 +88,501 @@ a
 {
     color: white;
 }
+
+/************************************************
+    GENERAL CODE
+************************************************/
+
+/************************************************
+    HEADER
+************************************************/
+.whole-header
+{
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.right-header ul > li
+{
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.header-right ul > li > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#sidebar
+{
+    display: none;
+}
+
+.button-header
+{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+/************************************************
+    MAIN JUMBOTRON
+************************************************/
+.container-large
+{
+    height: calc(100% - 73.5px);
+}
+
+.container-large .row
+{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.row .two-thirds 
+{
+    background-color: #b5ddff;
+    width: calc(100% * 2 / 3 - 20px);
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.row .one-third
+{
+    width: calc(100% / 3 - 20px);
+    border-radius: 20px;
+    text-align: center;
+    padding: 1.5rem 1.5rem;
+    background-color: #b5ddff;
+}
+
+.big-container .item
+{
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.big-container .item > i
+{
+    color: #0084fd;
+    font-size: 6rem;
+}
+
+.big-container .item > h3
+{
+    color: #0084fd;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.big-container .two-thirds img
+{
+    height: 80%;
+    align-self: flex-end;
+}
+
+.big-container .two-thirds .text-item-1
+{
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.big-container .two-thirds .text-item-1 button
+{
+    width: 200px;
+    background-color: #0084fd;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+}
+
+.big-container .two-thirds .text-item-1 h2
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0084fd;
+}
+
+.big-container .two-thirds .text-item-1 p
+{
+    line-height: 2rem;
+}
+
+/************************************************
+    MAIN SECTION 1
+************************************************/
+#section-1 .container
+{
+    background-color: #9792e4;
+    height: 100vh;
+}
+
+#section-1 .container .left-column-section-1, .right-column-section-1
+{
+    gap: 60px;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10rem 0;
+}
+
+#section-1 .container .left-column-section-1, .right-column-section-1 > h3
+{
+    margin: 5rem 0;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+#section-1 .container > p
+{
+    color: white;
+}
+
+#section-1 .container .left-column-section-1, .right-column-section-1
+{
+    width: calc(100% / 2 - 30px);
+}
+
+#section-1 .container .left-column-section-1, .right-column-section-1 > img
+{
+    width: 70%;
+}
+
+#section-1 .container .left-column-section-1, .right-column-section-1 > p
+{
+    font-style: italic;
+}
+
+#section-1 .container .left-column-section-1, .right-column-section-1 > h3
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#section-1 .container .left-column-section-1, .right-column-section-1
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 20px;
+    align-self: flex-end;
+    text-align: center;
+}
+
+#section-1 .container .left-column-section-1, .right-column-section-1 > .download-button
+{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    color: black;
+    background-color: #9792e4;
+}
+
+/************************************************
+    MAIN SECTION 2
+************************************************/
+.testimonial-row
+{
+    flex-direction: column;
+    gap: 20px;
+    padding: 3rem 0;
+}
+
+.testimonial-row
+{
+    width: 100%;
+    background-color: #9792e4;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+}
+
+.testimonial-row .testimonial-text 
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.testimonial-row .testimonial-text .testimonial-name
+{
+    color: #9691e3;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.testimonial-row .testimonial-text > span
+{
+    font-size: 1.25rem;
+}
+
+.testimonial-row .testimonial-text
+{
+    flex-basis: 30%;
+}
+
+.testimonia-row .testimonial-picture 
+{
+    align-self: center;
+    color: white;
+    padding: 0 3rem;
+}
+
+.testimonia-row .testimonial-picture > p 
+{
+    margin: 2rem 0;
+    font-size: 1.2rem;
+}
+
+.testimonia-row .testimonial-text  .testimonail-name 
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.testimonia-row .testimonial-picture img
+{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+/************************************************
+    MAIN SECTION 3
+************************************************/
+#section-3
+{
+    background-color: #9691e3;
+}
+
+#section-3 .container > h2
+{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#section-3 .container .grid-item 
+{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#section-3 .container .grid-item-1, .grid-item-2, .grid-item-3, .grid-item-4, .grid-item-5, .grid-item-6
+{
+    width: calc(100% / 3 - 20px);
+    border-radius: 20px;
+    background-color: white;
+    padding: 1rem;
+}
+
+#section-3 .container h3
+{
+    padding-top: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #9691e3;
+}
+
+#section-3 .container h4
+{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #9691e3;
+}
+
+#section-3 .container button
+{
+    margin: 1rem 0;
+    font-size: 1rem;
+    background-color: #9691e3;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-bottom: 1rem;
+}
+
+/************************************************
+    MAIN SECTION 4
+************************************************/
+#section-4
+{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#section-4 .text-section-4
+{
+    width: calc(70% - 20px);
+}
+
+.about-us .testimonial-picture
+{
+    width: calc(30% - 20px);
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-us .testimonial-picture img
+{
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.about-us .testimonial-picture:first-child
+{
+    position: relative;
+}
+
+.about-us .testimonial-picture:first-child > i
+{
+    color: #9691e3;
+    font-size: 4rem;
+    position: absolute;
+    top: 20px;
+    right: 90px;
+}
+
+#section-4 h4
+{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #9691e3;
+    margin-bottom: 1.5rem;
+}
+
+#section-4 .text-section-4 > p
+{
+    margin-bottom: 2rem;
+    padding: 0 3rem 0 0;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+
+#section-4 .text-section-4 p:first-child
+{
+    font-size: 2rem;
+    color: #9691e3;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.about-us .card.right a
+{
+    text-decoration: none;
+    background-color: #9691e3;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-top: 2rem;
+}
+
+/************************************************
+    MAIN SECTION 5
+************************************************/
+#section-5
+{
+    background-color: #9792e4;
+    padding: 4rem 0;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#section-5  h1
+{
+    color: lightgray;
+}
+
+#section-5  h2
+{
+    color: #fdc15f;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+#section-5  p
+{
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+#section-5 button
+{
+    color: #9691e3;
+    font-size: 2rem;
+    padding: 20px 30px;
+    width: 300px;
+    border-radius: 40px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#section-5  span,
+#section-5  a
+{
+    color: white;
+}
+
+/************************************************
+    FOOTER
+************************************************/
+footer
+{
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+footer .top-footer-paragraph
+{
+    margin-bottom: 3rem;
+}
+
 /************************************************
     MEDIA QUERY MOBILE
- ************************************************/
+************************************************/
 @media screen and (max-width: 480px)
 {
-    /************************************************
-        BODY
-    ************************************************/
-    body
-    {
-        width: 480px;
-    }
-    /************************************************
-        HEADER
-    ************************************************/
-    header
-    {
-        width: 100%;
-        height: 80px;
-    }
-
-    .whole-header
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        z-index: 1;
-        width: 100%;
-        height: 80px;
-        padding: 1.5rem 0.5rem;
-        background-color: rgba(0,132,253,255);
-    }
-
-    .logo
-    {
-        pos
-    }
-
-    .fa-bars
-    {
-        position: relative;
-        display: inline-block;
-        right: 30px;
-        font-size: 2rem;
-    }
-
-    .right-header
-    {
-        display: none !important;
-    }
-
-    /************************************************
-        MAIN SECTION JUMBO
-    ************************************************/
-    section.jumbotron
-    {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 70px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .item
-    {
-        background-color: rgba(181,221,255,255);
-        border-radius: 20px;
-        width: 310px;
-        margin-bottom: 20px;
-        padding: 20px;
-        height: 518px;
-    }
-
-    .row .row-1 .item-2 
-    {
-        height: 550px;
-    }
-
-    .item .item-icon 
-    {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .item h3
-    {
-        color: #0084fd;
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-
-    .item p 
-    {
-        line-height: 1.5rem;
-    }
-
-    .item-icon
-    {
-        font-size: 80px;
-    }
-
-    .row
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .two-thirds
-    {
-        flex-basis: calc(66.66% - 5px);
-        height: 300px;
-    }
-
-    .one-third
-    {
-        flex-basis: calc(33.33% - 10px);
-        height: 300px;
-    }
-
-    .item-1
-    {
-        display: flex; /* use flexbox to align the two sub-containers */
-        align-items: center; /* vertically center the two sub-containers */
-        text-align: left;
-        height: 605px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .item-2
-    {
-        height: 567px;
-        line-height: 3rem;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .item-2 p 
-    {
-        font-size: 15px;
-        line-height: 2.5rem;
-    }
-
-    .item-3, .item-4, .item-5
-    {
-        height: 437px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .item-3 p, .item-4 p, .item-5 p
-    {
-        line-height: 2.3rem;
-    }
-
-    .text-item-1
-    {
-        width: 100%; /* set width of the left container */
-        padding-left: 10px; /* add some padding for spacing */
-        padding-right: 20px; /* add some padding for spacing */
-    }
-
-
-    .text-item-1 h3
-    {
-        margin-top: 35px;
-    }
-
-    .text-item-1 p 
-    {
-        width: 93%;
-        line-height: 1.5rem;
-        order: 1;
-    }
-
-    .text-item-1 h3, .text-item-1 p, .text-item-1 button 
-    {
-        margin-left: 20px;
-    }
-
-    .image-item-1 
-    {
-        order: 2;
-        width: 100%;
-        height: 100%;
-    }
-
-    .image-item-1 img
-    {
-        width: 260px !important;
-        height: 300px !important;
-        position: relative;
-        top: 25px;
-        left: 5px;
-    }
-
-    .jumbo-button
-    {
-        background-color:#0084fd;
-        font-size: 15px;
-        color: white;
-        width: 200px;
-        height: 40px;
-        border: 0px solid #0084fd;
-        border-radius: 20px;
-        padding: 10px;
-        position: relative;
-        right: 5px;
-    }
-
-    .app-store
-    {
-        margin-left: 5px;
-    }
-        
-    .image-item-1 img
-    {
-        width: 70%;
-        height: 100%;
-    }
-
-
-    /************************************************
-        MAIN SECTION 1
-    ************************************************/
-    #section-1
-    {
-        margin-top: 60px;
-        margin-bottom: 60px;
-        background-color: rgba(151,146,228,255);
-    }
-
-    #section-1 .container
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 480px;
-    }
-
-    #section-1 .container .left-column-section-1
-    {
-        margin-top: 100px;
-        text-align: left;
-        color: white;
-        flex-basis: 100%;
-    }
-
-    .left-column-section-1 img
-    {
-        width: 313px;
-        height: 270px;
-        margin-left: 60px;
-    }
-
-    .left-column-section-1 h3
-    {
-        font-size: 50px;
-        font-weight: bolder;
-        margin-top: 80px;
-        margin-bottom: 50px;
-        margin-left: 20px;
-    }
-
-    .left-column-section-1 p
-    {
-        line-height: 2rem;
-        padding-right: 5px;
-        width: 90%;
-        margin-left: 20px;
-    }
-
-    #section-1 .container .right-column-section-1
-    {
-        margin-top: 40px;
-        margin-bottom: 50px;
-        text-align: center;
-        background-color: white;
-        border-radius: 30px;
-        flex-basis: 100%;
-        width: 90%;
-        height: 617px;
-    }
-
-
-    .right-column-section-1 img
-    {
-        width: 260px;
-        height: 280px;
-    }
-
-    .right-column-section-1 h3
-    {
-        font-size: 25px;
-        font-weight: bolder;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-
-    .right-column-section-1 p
-    {
-        font-style: italic;
-        line-height: 2.5rem;
-        margin-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-        height: 100%;
-        width: 100%;
-        text-align: center;
-    }
-
-    .download-button
-    {
-        background-color: rgba(151,146,228,255);
-        width: 50px;
-        height: 50px;
-        border: 0px solid transparent;
-        border-radius: 50%;
-        font-size: large;
-        margin-bottom: 20px;
-    }
-
-    /************************************************
-        MAIN SECTION 2
-    ************************************************/
-    #section-2
-    {
-        margin-bottom: 100px;
-    }
-
-    #section-2 .container  
-    {
-        width: 480px;
-        flex-direction: column;
-    }
-
-    #section-2 .container .text 
-    {
-        margin-top: 40px;
-        margin-bottom: 50px;
-        text-align: center;
-    }
-
-    #section-2 .container .text p
-    {
-        margin-bottom: 30px;
-    }
-
-
-    #section-2 .container .text h3
-    {
-        margin-bottom: 30px;
-        color: rgba(151,146,228,255);
-        font-size: 40px;
-        font-weight: 900;
-    }
-
-    #section-2 .container .text p:last-child
-    {
-        width: 80%;
-        margin: 0 auto;
-        line-height: 2rem;
-    }
-
-    .testimonial-row
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        border-radius: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 360px;
-        height: 500px;
-        padding: 20px;
-        margin-bottom: 30px;
-        margin-left: 40px;
-        text-align: center;
-    }
-
-    .testimonial-row .testimonial-picture
-    {
-        position: inherit;
-        margin-left: 0px;
-    }
-
-    .testimonial-row .testimonial-picture img
-    {
-        width: 200px;
-        height: 200px;  
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .testimonial-row .testimonial-text
-    {
-        font-size: 20px;
-        line-height: 2rem;
-    }
-
-    .testimonial-name
-    {
-        padding-top: 30px;
-    }
-
-    /************************************************
-        MAIN SECTION 3
-    ************************************************/
-    #section-3
-    {
-        background-color: rgba(151,146,228,255);
-    }
-
-    #section-3 .container 
-    {
-        display: grid;
-        grid-template-columns: 1fr; /* 1fr = 1 fraction of the available space */
-        grid-template-rows: repeat(6, 1fr); /* 6 rows of 1 fraction of the available space and 1 column */
-        grid-gap: 20px; /* gap between grid items */
-        width: 480px;
-        margin-bottom: 60px;
-        padding-bottom: 60px;
-        margin-left: 40px;
-    }
     
-    .grid-item 
-    {
-        background-color: white;
-        padding: 20px;
-        line-height: 4rem;
-    }
-
-    #section-3 h2.main-section-title
-    {
-        padding-top: 35px;
-        padding-bottom: 30px;
-        text-align: center;
-        margin: 0 auto;
-        color: white;
-        font-size: 40px;
-        font-weight: bolder;
-    }
-
-
-    #section-3 .grid-item
-    {
-        background-color: white;
-        color: rgba(151,146,228,255);
-        text-align: left;
-        padding: 20px;
-        width: 355px;
-        height: 420px;
-        border-radius: 30px;
-        margin-top: 20px;
-    }
-
-    #section-3 .grid-item h1 
-    {
-        font-size: 50px;
-        font-weight: bolder;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-
-    #section-3 .grid-item h2
-    {
-        font-size: 30px;
-        font-weight: bolder;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-
-    #section-3 .grid-item p
-    {
-        color: black;
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-
-    #section-3 .grid-item .more-button
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        width: 140px;
-        height: 40px;
-        padding: 10px;
-        text-align: center;
-        font-size: 15px;
-        font-weight: bolder;
-        border-radius: 30px;
-        border: 0px solid transparent;
-        margin-left: 5px;
-    }
-
-    #section-3 .grid-item-6 p 
-    {
-        width: 102%;
-    }
-
-    /************************************************
-        MAIN SECTION 4
-    ************************************************/
-    #section-4 
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .text-section-4 
-    {
-        text-align: left;
-        width: 383px;
-        height: 822px;
-    }
-
-    #section-4 .text-section-4  h1 
-    {
-        font-size: 80px;
-        font-weight: bolder;
-        margin-bottom: 35px;
-        color: rgba(151,146,228,255);
-    }
-
-    #section-4 .text-section-4  p.top-text
-    {
-        font-size: 18px;
-        line-height: 2rem;
-        width: 360px;
-        height: 350px;
-    }
-
-    #section-4 .text-section-4  p.bottom-text
-    {
-        font-size: 18px;
-        line-height: 2rem;
-        width: 360px;
-        height: 350px;
-        margin-top: 60px;
-    }
-
-    .testimonial-picture
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-right: 20px;
-        margin-top: 20px;
-    }
-
-    .testimonial-picture h4
-    {
-        color: rgba(151,146,228,255);
-        font-size: 30px;
-        font-weight: bolder;
-        line-height: 2rem;
-        width: 350px;
-        height: 150px;
-        position: relative;
-        bottom: 60px;
-    }
-
-    .testimonial-picture img 
-    {
-        width: 200px;
-        height: 200px;  
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .testimonial-picture i.fa-quote-left 
-    {
-        font-size: 80px;
-        position: relative;
-        bottom: 210px;
-        left: 150px;
-    }
-
-    .testimonial-picture .find-me-on-linkedin
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        width: 180px;
-        height: 30px;
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-        font-size: 13px;
-        font-weight: bolder;
-        border-radius: 30px;
-        border: 0px solid transparent;
-        position: relative;
-        bottom: 60px;
-    }
-
-
-    /************************************************
-        MAIN SECTION 5
-    ************************************************/
-    #section-5
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        text-align: center;
-    }
-
-    #section-5 p:first-child
-    {
-        color: #d2d0f3;
-        margin-bottom: 30px;
-    }
-
-    #section-5 h1
-    {
-        font-size: 30px;
-        font-weight: bolder;
-    }
-
-    #section-5 h2
-    {
-        color: rgba(253,193,95,255);
-        font-size: 60px;
-        font-weight: bolder;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    #section-5 p.still-in-beta
-    {
-        width: 460px;
-        height: 50px;
-        margin: 0 auto;
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-    }
-
-    #section-5 .get-started
-    {
-        background-color: white;
-        color: rgba(151,146,228,255);
-        width: 270px;
-        height: 70px;
-        padding: 10px;
-        text-align: center;
-        font-size: 20px;
-        font-weight: bolder;
-        border-radius: 40px;
-        border: 0px solid transparent;
-        margin-left: 5px;
-        margin-bottom: 30px;
-    }
-
-    #section-5 p:last-child 
-    {
-        font-size: small;
-    }
-
-    #section-5 p:last-child span.point
-    {
-        font-size: 5px;
-        position: relative;
-        bottom: 2.5px;
-    }
-
-    #section-5 p:last-child a
-    {
-        color: white;
-        text-decoration: underline;
-    }
-
-
-
-    /************************************************
-        FOOTER
-    ************************************************/
-    footer
-    {
-        background-color: rgba(51,51,51,255);
-        color: white;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        text-align: center;
-    }
-
-    footer a 
-    {
-        color:  rgba(151,146,228,255);
-        text-decoration: underline;
-    }
-
-    footer .top-footer-paragraph
-    {
-        width: 430px;
-        height: 40px;
-        margin: 0 auto;
-    }
-
-    footer .bottom-footer-paragraph
-    {
-        margin-top: 55px;
-        width: 390px;
-        height: 40px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 }
 
 /************************************************
     MEDIA QUERY TABLET
- ************************************************/
+************************************************/
 @media screen and (max-width: 768px)
 {
-    /************************************************
-        BODY
-    ************************************************/
-    body
-    {
-        width: 768px;
-    }
-    /************************************************
-        HEADER
-    ************************************************/
-    header
-    {
-        width: 100%;
-        height: 80px;
-    }
-
-    .whole-header
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        z-index: 1;
-        width: 100%;
-        height: 80px;
-        padding: 1.5rem 0.5rem;
-        background-color: rgba(0,132,253,255);
-    }
-
-    .logo
-    {
-        position: relative;
-        left: 20px;
-    }
-
-    .fa-bars
-    {
-        position: relative;
-        display: inline-block;
-        right: 50px;
-        font-size: 2rem;
-    }
-
-    .right-header
-    {
-        display: none;
-    }
-
-    /************************************************
-        MAIN SECTION JUMBO
-    ************************************************/
-    section.jumbotron
-    {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 70px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .item
-    {
-        background-color: rgba(181,221,255,255);
-        border-radius: 20px;
-    }
-
-    .row .row-1 .item-2 
-    {
-        height: 550px;
-    }
-
-    .item .item-icon 
-    {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .item h3
-    {
-        color: #0084fd;
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-
-    .item p 
-    {
-        line-height: 1.5rem;
-    }
-
-    .item-icon
-    {
-        font-size: 80px;
-    }
-
-    .row
-    {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .row-2
-    {
-        margin-top: 15px;
-    }
-
-    .two-thirds
-    {
-        flex-basis: calc(66.66% - 5px);
-        height: 300px;
-    }
-
-    .one-third
-    {
-        flex-basis: calc(33.33% - 10px);
-        height: 300px;
-    }
-
-    .item-1
-    {
-        display: flex; /* use flexbox to align the two sub-containers */
-        align-items: center; /* vertically center the two sub-containers */
-        text-align: left;
-        height: 567px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .item-2
-    {
-        height: 567px;
-        line-height: 3rem;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .item-2 p 
-    {
-        font-size: 15px;
-        line-height: 2.5rem;
-    }
-
-    .item-3, .item-4, .item-5
-    {
-        height: 437px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .item-3 p, .item-4 p, .item-5 p
-    {
-        line-height: 2.3rem;
-    }
-
-    .text-item-1
-    {
-        width: 100%; /* set width of the left container */
-        padding-left: 10px; /* add some padding for spacing */
-        padding-right: 20px; /* add some padding for spacing */
-    }
-
-
-    .text-item-1 h3
-    {
-        margin-top: 35px;
-    }
-
-    .text-item-1 p 
-    {
-        width: 93%;
-        line-height: 1.5rem;
-        order: 1;
-    }
-
-    .text-item-1 h3, .text-item-1 p, .text-item-1 button 
-    {
-        margin-left: 20px;
-    }
-
-    .image-item-1 
-    {
-        order: 2;
-        width: 100%;
-        height: 100%;
-    }
-
-    .image-item-1 img
-    {
-        width: 260px !important;
-        height: 300px !important;
-        position: relative;
-        top: 48px;
-        left: 20px;
-    }
-
-    .jumbo-button
-    {
-        background-color:#0084fd;
-        font-size: 15px;
-        color: white;
-        width: 200px;
-        height: 40px;
-        border: 0px solid #0084fd;
-        border-radius: 20px;
-        padding: 10px;
-        position: relative;
-        right: 5px;
-    }
-
-    .app-store
-    {
-        margin-left: 5px;
-    }
-        
-    .image-item-1 img
-    {
-        width: 70%;
-        height: 100%;
-    }
-
-
-    /************************************************
-        MAIN SECTION 1
-    ************************************************/
-    #section-1
-    {
-        margin-top: 60px;
-        margin-bottom: 60px;
-        background-color: rgba(151,146,228,255);
-    }
-
-    #section-1 .container
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 768px;
-    }
-
-    #section-1 .container .left-column-section-1
-    {
-        margin-top: 100px;
-        margin-bottom: 50px;
-        text-align: left;
-        color: white;
-    }
-
-    .left-column-section-1 img
-    {
-        width: 100%;
-        height: 70%;
-    }
-
-    .left-column-section-1 h3
-    {
-        font-size: 50px;
-        font-weight: bolder;
-        margin-top: 80px;
-        margin-bottom: 50px;
-    }
-
-    .left-column-section-1 p
-    {
-        line-height: 1.5rem;
-        padding-right: 5px;
-    }
-
-    #section-1 .container .right-column-section-1
-    {
-        margin-top: 40px;
-        margin-bottom: 50px;
-        text-align: center;
-        background-color: white;
-        border-radius: 30px;
-    }
-
-
-    .right-column-section-1 img
-    {
-        width: 450px;
-        height: 500px;
-    }
-
-    .right-column-section-1 h3
-    {
-        font-size: 25px;
-        font-weight: bolder;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-
-    .right-column-section-1 p
-    {
-        font-style: italic;
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .download-button
-    {
-        background-color: rgba(151,146,228,255);
-        width: 50px;
-        height: 50px;
-        border: 0px solid transparent;
-        border-radius: 50%;
-        font-size: large;
-        margin-bottom: 20px;
-    }
-
-    /************************************************
-        MAIN SECTION 2
-    ************************************************/
-    #section-2
-    {
-        margin-bottom: 100px;
-    }
-
-    #section-2 .container  
-    {
-        width: 768px;
-    }
-
-    #section-2 .container .text 
-    {
-        margin-top: 40px;
-        margin-bottom: 50px;
-        text-align: center;
-    }
-
-    #section-2 .container .text p
-    {
-        margin-bottom: 30px;
-    }
-
-
-    #section-2 .container .text h3
-    {
-        margin-bottom: 30px;
-        color: rgba(151,146,228,255);
-        font-size: 40px;
-        font-weight: 900;
-    }
-
-    #section-2 .container .text p:last-child
-    {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .testimonial-row
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
-        width: 746px;
-        height: 280px;
-        padding: 20px;
-        margin-bottom: 30px;
-    }
-
-    .testimonial-row .testimonial-picture
-    {
-        position: inherit;
-        margin-left: 0px;
-    }
-
-    .testimonial-row .testimonial-picture img
-    {
-        width: 200px;
-        height: 200px;  
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .testimonial-row .testimonial-text
-    {
-        margin-left: 30px;
-        font-size: 20px;
-        line-height: 1.5rem;
-    }
-
-    .testimonial-name
-    {
-        padding-top: 30px;
-    }
-
-    /************************************************
-        MAIN SECTION 3
-    ************************************************/
-    #section-3
-    {
-        background-color: rgba(151,146,228,255);
-    }
-
-    #section-3 .container 
-    {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 columns */
-        grid-template-rows: repeat(3, 1fr); /* 3 rows */
-        grid-gap: 20px; /* gap between grid items */
-        width: 100%;
-        margin-bottom: 60px;
-        padding-bottom: 60px;
-    }
     
-    .grid-item 
-    {
-        background-color: white;
-        padding: 20px;
-    }
-
-    #section-3 h2.main-section-title
-    {
-        padding-top: 35px;
-        padding-bottom: 30px;
-        text-align: center;
-        margin: 0 auto;
-        color: white;
-        font-size: 40px;
-        font-weight: bolder;
-    }
-
-
-    #section-3 .grid-item
-    {
-        background-color: white;
-        color: rgba(151,146,228,255);
-        text-align: left;
-        padding: 20px;
-        width: 355px;
-        height: 420px;
-        border-radius: 30px;
-        margin-top: 20px;
-    }
-
-    #section-3 .grid-item h1 
-    {
-        font-size: 50px;
-        font-weight: bolder;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-
-    #section-3 .grid-item h2
-    {
-        font-size: 30px;
-        font-weight: bolder;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-
-    #section-3 .grid-item p
-    {
-        color: black;
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-
-    #section-3 .grid-item .more-button
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        width: 140px;
-        height: 40px;
-        padding: 10px;
-        text-align: center;
-        font-size: 15px;
-        font-weight: bolder;
-        border-radius: 30px;
-        border: 0px solid transparent;
-        margin-left: 5px;
-    }
-
-    #section-3 .grid-item-6 p 
-    {
-        width: 102%;
-    }
-
-    /************************************************
-        MAIN SECTION 4
-    ************************************************/
-    #section-4 
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        height: 1060px;
-    }
-
-    .text-section-4 
-    {
-        text-align: left;
-        width: 383px;
-        height: 822px;
-        position: relative;
-        right: 120px;
-    }
-
-    #section-4 .text-section-4  h1 
-    {
-        font-size: 80px;
-        font-weight: bolder;
-        margin-bottom: 35px;
-        color: rgba(151,146,228,255);
-        padding-top: 80px;
-    }
-
-    #section-4 .text-section-4  p
-    {
-        font-size: 18px;
-        line-height: 2rem;
-        width: 360px;
-        height: 379px;
-    }
-
-    #section-4 .text-section-4  p.bottom-text
-    {
-        width: 383px;
-    }
-
-    .testimonial-picture
-    {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 70px;
-        position: relative;
-        bottom: 730px;
-        left: 190px;
-    }
-
-    .testimonial-picture h4
-    {
-        color: rgba(151,146,228,255);
-        font-size: 30px;
-        font-weight: bolder;
-        line-height: 2rem;
-        width: 240px;
-        height: 190px;
-        position: relative;
-        bottom: 60px;
-    }
-
-    .testimonial-picture img 
-    {
-        width: 200px;
-        height: 200px;  
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .testimonial-picture i.fa-quote-left 
-    {
-        font-size: 80px;
-        position: relative;
-        bottom: 210px;
-        left: 150px;
-    }
-
-    .testimonial-picture .find-me-on-linkedin
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        width: 180px;
-        height: 30px;
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-        font-size: 13px;
-        font-weight: bolder;
-        border-radius: 30px;
-        border: 0px solid transparent;
-        position: relative;
-        bottom: 70px;
-    }
-
-
-    /************************************************
-        MAIN SECTION 5
-    ************************************************/
-    #section-5
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        text-align: center;
-    }
-
-    #section-5 p:first-child
-    {
-        color: #d2d0f3;
-        margin-bottom: 30px;
-    }
-
-    #section-5 h1
-    {
-        font-size: 30px;
-        font-weight: bolder;
-    }
-
-    #section-5 h2
-    {
-        color: rgba(253,193,95,255);
-        font-size: 60px;
-        font-weight: bolder;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    #section-5 p.still-in-beta
-    {
-        width: 460px;
-        height: 50px;
-        margin: 0 auto;
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-    }
-
-    #section-5 .get-started
-    {
-        background-color: white;
-        color: rgba(151,146,228,255);
-        width: 270px;
-        height: 70px;
-        padding: 10px;
-        text-align: center;
-        font-size: 20px;
-        font-weight: bolder;
-        border-radius: 40px;
-        border: 0px solid transparent;
-        margin-left: 5px;
-        margin-bottom: 30px;
-    }
-
-    #section-5 p:last-child 
-    {
-        font-size: small;
-    }
-
-    #section-5 p:last-child span.point
-    {
-        font-size: 5px;
-        position: relative;
-        bottom: 2.5px;
-    }
-
-    #section-5 p:last-child a
-    {
-        color: white;
-        text-decoration: underline;
-    }
-
-
-
-    /************************************************
-        FOOTER
-    ************************************************/
-    footer
-    {
-        background-color: rgba(51,51,51,255);
-        color: white;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        text-align: center;
-    }
-
-    footer a 
-    {
-        color:  rgba(151,146,228,255);
-        text-decoration: underline;
-    }
-
-    footer .top-footer-paragraph
-    {
-        width: 430px;
-        height: 40px;
-        margin: 0 auto;
-    }
-
-    footer .bottom-footer-paragraph
-    {
-        margin-top: 55px;
-        width: 390px;
-        height: 40px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
 }
 
 /************************************************
     MEDIA QUERY DESKTOP
- ************************************************/
+************************************************/
 @media screen and (max-width: 1900px)
 {
-    /************************************************
-        HEADER
-    ************************************************/
-
-    header
-    {
-        width: 100%;
-        height: 80px;
-    }
-
-    header nav
-    {
-        height: 100%;
-    }
-
-    .whole-header
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        z-index: 1;
-        width: 100%;
-        height: 80px;
-        padding: 1.5rem 0.5rem;
-        background-color: rgba(0,132,253,255);
-    }
-
-    .logo
-    {
-        position: relative;
-        left: 250px;
-    }
-
-    header ul 
-    {
-        list-style-type: none;
-        width: 150px;
-        height: 100%;
-    }
-
-    .right-header
-    {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    nav
-    {
-        display: flex;
-        align-items: center;    
-        justify-content: space-between;
-        flex-direction: row;
-        position: relative;
-        top: 10px;
-        right: 570px;
-    }
-
-    nav ul li 
-    {
-        display: flex;
-        align-items: center;    
-        justify-content: space-around;
-        min-width: 70px;
-        margin-left: 25px;
-    }
-
-    .header-button
-    {
-        background-color: white;
-        width: 110px;
-        text-align: center;
-        padding: 10px;
-        border-radius: 20px;
-        border: 0px solid white;
-        position: relative;
-        right: 270px;
-    }
-
-    /************************************************
-        MAIN SECTION JUMBOTRON
-    ************************************************/
-    section.jumbotron
-    {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 100px;
-        margin-left: 250px;
-        margin-right: 250px;
-    }
-
-
-    .item
-    {
-        background-color: rgba(181,221,255,255);
-        border-radius: 20px;
-    }
-
-    .item .item-icon 
-    {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .item h3
-    {
-        color: #0084fd;
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-
-    .item p 
-    {
-        line-height: 1.5rem;
-    }
-
-    .item-icon
-    {
-        font-size: 60px;
-    }
-
-    .row
-    {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .row-2
-    {
-        margin-top: 15px;
-    }
-
-    .two-thirds
-    {
-        flex-basis: calc(66.66% - 5px);
-        height: 300px;
-    }
-
-    .one-third
-    {
-        flex-basis: calc(33.33% - 10px);
-        height: 300px;
-    }
-
-    .item-1
-    {
-        display: flex; /* use flexbox to align the two sub-containers */
-        align-items: center; /* vertically center the two sub-containers */
-        text-align: left;
-    }
-
-    .text-item-1
-    {
-        width: 50%; /* set width of the left container */
-        padding: 20px; /* add some padding for spacing */
-    }
-
-    .text-item-1 p 
-    {
-        width: 300px;
-        line-height: 1.5rem;
-    }
-
-    .text-item-1 h3, .text-item-1 p, .text-item-1 button 
-    {
-        margin-left: 20px;
-    }
-
-    .image-item-1 
-    {
-        position: relative; /* position the right container */
-        top: 22px; /* align the container to the bottom */
-        left: 40px; /* align the container to the right */
-        width: 50%; /* set width of the right container */
-    }
-
-    .jumbo-button
-    {
-        background-color:#0084fd;
-        font-size: 15px;
-        color: white;
-        width: 200px;
-        height: 40px;
-        border: 0px solid #0084fd;
-        border-radius: 20px;
-        padding: 10px;
-        position: relative;
-        right: 5px;
-    }
-
-    .app-store
-    {
-        margin-left: 5px;
-    }
-        
-    .image-item-1 img
-    {
-        width: 70%;
-        height: 100%;
-    }
-
-    /************************************************
-        MAIN SECTION 1
-    ************************************************/
-
-    #section-1
-    {
-        background-color: rgba(151,146,228,255);
-    }
-
-    #section-1 .container
-    {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        color: white;
-        padding-top: 100px;
-        padding-bottom: 60px;
-
-    }
-
-    .container .left-column-section-1, .right-column-section-1
-    {
-        flex-basis: 50%;
-        max-width: 400px;
-        max-height: 100%;
-    }
-
-    .left-column-section-1 .right-column-section-1
-    {
-        background-color: rgba(151,146,228,255);
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .left-column-section-1 img
-    {
-        width: 350px;
-        height: 307px;
-        position: relative;
-    }
-
-    .left-column-section-1 h3
-    {
-        font-size: 30px;
-        font-weight: bolder;
-        margin-top: 80px;
-        margin-bottom: 50px;
-    }
-
-    .left-column-section-1 p
-    {
-        line-height: 1.5rem;
-    }
-
-    .left-column-section-1 img, .right-column-section-1 img
-    {
-        max-width: 100%;
-    } 
-
-    .right-column-section-1
-    {
-        background-color: white;
-        color: black;
-        border-radius: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        text-align: center;
-        margin-left: 40px;
-        max-height: 500px;
-        margin-top: 100px;
-    }
-
-    .right-column-section-1 img
-    {
-        width: 230px;
-        height: 240px;
-        position: relative;
-        top: 35px;
-        left: 90px;
-    }
-
-    .right-column-section-1 h3
-    {
-        font-size: 25px;
-        font-weight: bolder;
-        margin-top: 50px;
-        margin-bottom: 20px;
-        margin-left: 90px;
-    }
-
-    .right-column-section-1 p
-    {
-        font-style: italic;
-        line-height: 1.5rem;
-    }
-
-    .download-button
-    {
-        background-color: rgba(151,146,228,255);
-        width: 50px;
-        height: 50px;
-        border: 0px solid transparent;
-        border-radius: 50%;
-        font-size: large;
-        position: relative;
-        top: 20px;
-        left: 170px;
-    }
-
-    /************************************************
-        MAIN SECTION 2
-    ************************************************/
-    #section-2
-    {
-        margin-bottom: 100px;
-    }
-
-    #section-2 .container .text 
-    {
-        margin-top: 40px;
-        margin-bottom: 50px;
-        text-align: center;
-    }
-
-    #section-2 .container .text p
-    {
-        margin-bottom: 30px;
-    }
-
-
-    #section-2 .container .text h3
-    {
-        margin-bottom: 30px;
-        color: rgba(151,146,228,255);
-        font-size: 40px;
-        font-weight: 900;
-    }
-
-    #section-2 .container .text p:last-child
-    {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .testimonial-row
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        margin-bottom: 30px;
-    }
-
-    .testimonial-row .testimonial-picture
-    {
-        margin-right: 20px;
-    }
-
-    .testimonial-row .testimonial-picture img
-    {
-        width: 200px;
-        height: 200px;  
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .testimonial-row .testimonial-text
-    {
-        margin-left: 20px;
-        font-size: 20px;
-        line-height: 1.5rem;
-    }
-
-    .testimonial-name
-    {
-        padding-top: 30px;
-    }
-    /************************************************
-        MAIN SECTION 3 
-    ************************************************/
-    #section-3
-    {
-        background-color: rgba(151,146,228,255);
-    }
-
-    #section-3 .container
-    {
-        padding-bottom: 60px;
-    }
-
-    #section-3 h2.main-section-title
-    {
-        padding-top: 65px;
-        padding-bottom: 65px;
-        text-align: center;
-        margin: 0 auto;
-        color: white;
-        font-size: 30px;
-        font-weight: bolder;
-    }
-
-    #section-3 .column-1, .column-2, .column-3 
-    {
-        background-color: white;
-        color: rgba(151,146,228,255);
-        text-align: left;
-        padding: 20px;
-        width: calc(100% / 3 - 2rem);
-        height: 400px;
-        border-radius: 30px;
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-bottom: 20px;
-    }
-
-    #section-3 .column h1 
-    {
-        font-size: 50px;
-        font-weight: bolder;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-
-    #section-3 .column h2
-    {
-        font-size: 30px;
-        font-weight: bolder;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-
-    #section-3 .column p
-    {
-        color: black;
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-        padding-left: 5px;
-    }
-
-    #section-3 .column .more-button
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        width: 140px;
-        height: 40px;
-        padding: 10px;
-        text-align: center;
-        font-size: 15px;
-        font-weight: bolder;
-        border-radius: 30px;
-        border: 0px solid transparent;
-        margin-left: 5px;
-    }
-
-    /************************************************
-        MAIN SECTION 4
-    ************************************************/
-    #section-4 
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .text-section-4 
-    {
-        text-align: left;
-        max-width: 50%;
-        height: 700px; /* Da Eliminare */
-        margin-left: 300px;
-    }
-
-    #section-4 .text-section-4  h1 
-    {
-        font-size: 40px;
-        font-weight: bolder;
-        margin-bottom: 35px;
-        color: rgba(151,146,228,255);
-        padding-top: 80px;
-    }
-
-    #section-4 .text-section-4  p
-    {
-        font-size: 18px;
-        line-height: 2rem;
-        width: 660px;
-        height: 230px;
-    }
-
-    #section-4 .text-section-4  p.bottom-text
-    {
-        width: 650px;
-    }
-
-    .testimonial-picture
-    {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 70px;
-    }
-
-    .testimonial-picture h4
-    {
-        color: rgba(151,146,228,255);
-        font-size: 30px;
-        font-weight: bolder;
-        line-height: 2rem;
-        width: 240px;
-        height: 190px;
-        position: relative;
-        bottom: 60px;
-    }
-
-    .testimonial-picture img 
-    {
-        width: 200px;
-        height: 200px;  
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .testimonial-picture i.fa-quote-left 
-    {
-        font-size: 80px;
-        position: relative;
-        bottom: 210px;
-        left: 150px;
-    }
-
-    .testimonial-picture .find-me-on-linkedin
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        width: 180px;
-        height: 30px;
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-        font-size: 13px;
-        font-weight: bolder;
-        border-radius: 30px;
-        border: 0px solid transparent;
-        position: relative;
-        bottom: 70px;
-    }
-
-    /************************************************
-        MAIN SECTION 5
-    ************************************************/
-    #section-5
-    {
-        background-color: rgba(151,146,228,255);
-        color: white;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        text-align: center;
-    }
-
-    #section-5 p:first-child
-    {
-        color: #d2d0f3;
-        margin-bottom: 30px;
-    }
-
-    #section-5 h1
-    {
-        font-size: 30px;
-        font-weight: bolder;
-    }
-
-    #section-5 h2
-    {
-        color: rgba(253,193,95,255);
-        font-size: 60px;
-        font-weight: bolder;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    #section-5 p.still-in-beta
-    {
-        width: 460px;
-        height: 50px;
-        margin: 0 auto;
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-    }
-
-    #section-5 .get-started
-    {
-        background-color: white;
-        color: rgba(151,146,228,255);
-        width: 270px;
-        height: 70px;
-        padding: 10px;
-        text-align: center;
-        font-size: 20px;
-        font-weight: bolder;
-        border-radius: 40px;
-        border: 0px solid transparent;
-        margin-left: 5px;
-        margin-bottom: 30px;
-    }
-
-    #section-5 p:last-child 
-    {
-        font-size: small;
-    }
-
-    #section-5 p:last-child span.point
-    {
-        font-size: 5px;
-        position: relative;
-        bottom: 2.5px;
-    }
-
-    #section-5 p:last-child a
-    {
-        color: white;
-        text-decoration: underline;
-    }
-
-    /************************************************
-        FOOTER
-    ************************************************/
-    footer
-    {
-        background-color: rgba(51,51,51,255);
-        color: white;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        text-align: center;
-    }
-
-    footer a 
-    {
-        color:  rgba(151,146,228,255);
-        text-decoration: underline;
-    }
-
-    footer .top-footer-paragraph
-    {
-        width: 430px;
-        height: 40px;
-        margin: 0 auto;
-    }
-
-    footer .bottom-footer-paragraph
-    {
-        margin-top: 55px;
-        width: 390px;
-        height: 40px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
 }
