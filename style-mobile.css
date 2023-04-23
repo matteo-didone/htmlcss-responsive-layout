@@ -332,22 +332,24 @@ a
     {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        width: 768px;
+        width: 480px;
     }
 
     #section-1 .container .left-column-section-1
     {
         margin-top: 100px;
-        margin-bottom: 50px;
         text-align: left;
         color: white;
+        flex-basis: 100%;
     }
 
     .left-column-section-1 img
     {
-        width: 100%;
-        height: 70%;
+        width: 313px;
+        height: 270px;
+        margin-left: 60px;
     }
 
     .left-column-section-1 h3
@@ -356,12 +358,15 @@ a
         font-weight: bolder;
         margin-top: 80px;
         margin-bottom: 50px;
+        margin-left: 20px;
     }
 
     .left-column-section-1 p
     {
-        line-height: 1.5rem;
+        line-height: 2rem;
         padding-right: 5px;
+        width: 90%;
+        margin-left: 20px;
     }
 
     #section-1 .container .right-column-section-1
@@ -371,13 +376,16 @@ a
         text-align: center;
         background-color: white;
         border-radius: 30px;
+        flex-basis: 100%;
+        width: 90%;
+        height: 617px;
     }
 
 
     .right-column-section-1 img
     {
-        width: 450px;
-        height: 500px;
+        width: 260px;
+        height: 280px;
     }
 
     .right-column-section-1 h3
@@ -391,10 +399,13 @@ a
     .right-column-section-1 p
     {
         font-style: italic;
-        line-height: 1.5rem;
+        line-height: 2.5rem;
         margin-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 100%;
+        width: 100%;
+        text-align: center;
     }
 
     .download-button
@@ -418,7 +429,8 @@ a
 
     #section-2 .container  
     {
-        width: 768px;
+        width: 480px;
+        flex-direction: column;
     }
 
     #section-2 .container .text 
@@ -454,11 +466,14 @@ a
         color: white;
         border-radius: 30px;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        width: 746px;
-        height: 280px;
+        width: 360px;
+        height: 500px;
         padding: 20px;
         margin-bottom: 30px;
+        margin-left: 40px;
+        text-align: center;
     }
 
     .testimonial-row .testimonial-picture
