@@ -606,7 +606,6 @@ a
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 1060px;
     }
 
     .text-section-4 
@@ -614,8 +613,6 @@ a
         text-align: left;
         width: 383px;
         height: 822px;
-        position: relative;
-        right: 120px;
     }
 
     #section-4 .text-section-4  h1 
@@ -624,32 +621,32 @@ a
         font-weight: bolder;
         margin-bottom: 35px;
         color: rgba(151,146,228,255);
-        padding-top: 80px;
     }
 
-    #section-4 .text-section-4  p
+    #section-4 .text-section-4  p.top-text
     {
         font-size: 18px;
         line-height: 2rem;
         width: 360px;
-        height: 379px;
+        height: 350px;
     }
 
     #section-4 .text-section-4  p.bottom-text
     {
-        width: 383px;
+        font-size: 18px;
+        line-height: 2rem;
+        width: 360px;
+        height: 350px;
+        margin-top: 60px;
     }
 
     .testimonial-picture
     {
-        flex: 1;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 70px;
-        position: relative;
-        bottom: 730px;
-        left: 190px;
+        margin-right: 20px;
+        margin-top: 20px;
     }
 
     .testimonial-picture h4
@@ -658,8 +655,8 @@ a
         font-size: 30px;
         font-weight: bolder;
         line-height: 2rem;
-        width: 240px;
-        height: 190px;
+        width: 350px;
+        height: 150px;
         position: relative;
         bottom: 60px;
     }
@@ -695,7 +692,7 @@ a
         border-radius: 30px;
         border: 0px solid transparent;
         position: relative;
-        bottom: 70px;
+        bottom: 60px;
     }
 
 
